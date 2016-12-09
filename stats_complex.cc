@@ -7,7 +7,7 @@ double Bot1, Bot2, Bot3, Bot4;
 void print_stats() {
 	cout.setf(ios::fixed);
     cout.precision(2);
-	int n = Sovereignv9+Sovereignv12+Sovereign+Sovereignv13;
+	int n = Bot1+Bot2+Bot3+Bot4;
 	cout << "Win rate over " << n << " matches: " << endl;
 	cout << "Bot1: " << 100*Bot1/n << "%" << endl;
 	cout << "Bot2: " << 100*Bot2/n << "%" << endl;
